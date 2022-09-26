@@ -12,6 +12,9 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
     MediaPlayerComponent,
     HeaderUserComponent
   ],
+  exports: [
+    SidebarComponent
+  ],
   imports: [
     CommonModule
   ]
